@@ -1,6 +1,7 @@
 <template>
   <div class="home">
     <img alt="Vue logo" src="../assets/logo.png">
+    <p>Localisation added: {{$t('message')}}</p>
     <HelloWorld msg="Welcome in Vue Production App... now add project to git."/>
   </div>
 </template>

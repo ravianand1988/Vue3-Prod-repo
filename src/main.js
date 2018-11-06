@@ -8,10 +8,12 @@ import WebFontLoader from 'webfontloader'
 //import assets
 import 'vuetify/dist/vuetify.min.css'
 import 'material-design-icons-iconfont/dist/material-design-icons.css'
+import i18n from './i18n'
 
 Vue.config.productionTip = false
 
 Vue.use(Vuetify)
+
 
 export default {
   mounted () {
@@ -32,5 +34,6 @@ export default {
 new Vue({
   router,
   store,
+  i18n,
   render: h => h(App)
 }).$mount('#app')
