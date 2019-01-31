@@ -4,15 +4,7 @@
             <img alt="Vue logo" src="../assets/logo.png">
             <p>Localisation added: {{$t('message')}}</p>
             <HelloWorld msg="Welcome in Vue Production App... now add project to git."/>
-            <v-btn
-                    icon
-                    large
-                    :href="source"
-                    target="_blank"
-                    slot="activator"
-            >
-                <v-icon large>code</v-icon>
-            </v-btn>
+            <br>
             <router-link to="/">Home</router-link>
         |
         <router-link to="/about">About</router-link>

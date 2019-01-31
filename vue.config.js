@@ -8,3 +8,6 @@ module.exports = {
     }
   }
 }
+const pjson = require('./package.json')
+process.env.VUE_APP_VERSION = process.env.VERSION || pjson.version
+process.env.VUE_APP_BUILD_NUM = process.env.BUILD_NUM || pjson.buildNum

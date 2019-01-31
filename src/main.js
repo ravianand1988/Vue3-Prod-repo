@@ -31,6 +31,9 @@ export default {
   }
 }
 
+Vue.prototype.$version = process.env.VUE_APP_VERSION
+Vue.prototype.$buildNum = process.env.VUE_APP_BUILD_NUM
+
 new Vue({
   router,
   store,

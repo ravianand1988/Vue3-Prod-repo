@@ -1,5 +1,5 @@
 <template>
-    <div id="app">
+    <div id="app" :version="$version" :build-num="$buildNum">
         <router-view></router-view>
     </div>
 </template>

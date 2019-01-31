@@ -4,6 +4,7 @@
 - [`.circleci`](#circleci)
 - [`.vscode`](#vscode)
 - [`docs`](#docs)
+- [`deploy`](#deploy)
 - [`public`](#public)
   - [`index.html`](#indexhtml)
 - [`src`](#src)
@@ -31,6 +32,10 @@ Configuration for continuous integration with [Circle CI](https://circleci.com/)
 Settings and extensions specific to this project, for Visual Studio Code. See [the editors doc](editors.md#visual-studio-code) for more.
 
 ## `docs`
+
+You found me! :wink:
+
+## `deploy`
 
 You found me! :wink:
 

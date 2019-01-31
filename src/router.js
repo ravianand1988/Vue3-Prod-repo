@@ -7,8 +7,14 @@ Vue.use(Router);
 
 export default new Router({
   mode: "history",
+  caseSensitive: false,
   base: process.env.BASE_URL,
   routes: [
+    {
+      path: "/login",
+      name: "login",
+      component: () => import("./views/login")
+    },
     {
       path: "/",
       name: "dashboard",
@@ -30,6 +36,10 @@ export default new Router({
             import(/* webpackChunkName: "about" */ "./views/About.vue")
         }
       ]
+    },
+    {
+      path: "*",
+      component: () => import("./views/NotFound.vue")
     }
   ]
 });
